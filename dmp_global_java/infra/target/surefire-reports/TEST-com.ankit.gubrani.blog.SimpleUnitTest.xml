@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ankit.gubrani.blog.SimpleUnitTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\SRVBAN04ADPH01"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="CATALINA_HOME" value="C:\apache-tomcat-7.0.72"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="MPHASIS"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JAVA_OPTS" value=" &quot;-Djdk.tls.ephemeralDHKeySize=2048&quot; -Djava.util.logging.config.file=&quot;C:\apache-tomcat-7.0.72\conf\logging.properties&quot; -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="JOB_NAME" value="DEV_CHECKOUT_BUILD"/>
+    <property name="COMPUTERNAME" value="LTPBAN042303109"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="EXECUTABLE" value="C:\apache-tomcat-7.0.72\bin\catalina.bat"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="Guduru.Reddy"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="GIT_COMMITTER_EMAIL" value="Guduru.Reddy@mphasis.com"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Guduru.Reddy\AppData\Local"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-DEV_CHECKOUT_BUILD-1"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main C:\apache-maven-3.3.9 C:\apache-tomcat-7.0.72\webapps\jenkins\WEB-INF\lib\remoting-2.62.jar C:\Users\Guduru.Reddy\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar C:\Users\Guduru.Reddy\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar 51201"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="be7735c55a99d906"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_91/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_91\bin;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\Git\cmd"/>
+    <property name="GIT_COMMIT" value="2e75f300bfbfccb56a8ca8dcb3d0885cebcfe8fe"/>
+    <property name="GIT_COMMITTER_NAME" value="Guduru.Reddy"/>
+    <property name="java.io.tmpdir" value="C:\Users\GUDURU~1.RED\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Guduru.Reddy\AppData\Roaming"/>
+    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="user.language" value="en"/>
+    <property name="CATALINA_TMPDIR" value="C:\apache-tomcat-7.0.72\temp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/DEV_CHECKOUT_BUILD/1/"/>
+    <property name="JAVA_ENDORSED_DIRS" value="C:\apache-tomcat-7.0.72\endorsed"/>
+    <property name="ACTION" value="start"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.3.9"/>
+    <property name="=C:" value="C:\apache-tomcat-7.0.72\bin"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CATALINA_BASE" value="C:\apache-tomcat-7.0.72"/>
+    <property name="HUDSON_SERVER_COOKIE" value="be7735c55a99d906"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jdk1.8.0_91"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.8.0_91\bin\java.exe&quot;"/>
+    <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.8.0_91\bin\java.exe&quot;"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.3.9"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Guduru.Reddy\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;C:\apache-tomcat-7.0.72\conf\logging.properties&quot;"/>
+    <property name="HOMEPATH" value="\Users\Guduru.Reddy"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="maven3.interceptor" value="C:\Users\Guduru.Reddy\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_91\bin;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\Git\cmd;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="GIT_AUTHOR_EMAIL" value="Guduru.Reddy@mphasis.com"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JSSE_OPTS" value="&quot;-Djdk.tls.ephemeralDHKeySize=2048&quot;"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_91\bin\jdb.exe&quot;"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/DEV_CHECKOUT_BUILD/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="MpConfig_ProductPath" value="C:\Program Files\Windows Defender"/>
+    <property name="JENKINS_HOME" value="C:\Users\Guduru.Reddy\.jenkins"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="TEMP" value="C:\Users\GUDURU~1.RED\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="MpConfig_ProductCodeName" value="AntiSpyware"/>
+    <property name="VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="HUDSON_HOME" value="C:\Users\Guduru.Reddy\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.3.9/bin"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="CURRENT_DIR" value="C:\apache-tomcat-7.0.72\bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_91"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\Guduru.Reddy"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Guduru.Reddy"/>
+    <property name="USERNAME" value="Guduru.Reddy"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="CORP.MPHASIS.COM"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\Guduru.Reddy\.jenkins\workspace\DEV_CHECKOUT_BUILD"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\GUDURU~1.RED\AppData\Local\Temp"/>
+    <property name="UATDATA" value="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="MpConfig_ReportingGUID" value="51D5EA3F-DE20-44AC-AD32-39A7EA26CA33"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.class.path" value="C:\Users\Guduru.Reddy\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.8.1.jar;C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\apache-maven-3.3.9/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="MpConfig_ProductUserAppDataPath" value="C:\Users\Guduru.Reddy\AppData\Local\Microsoft\Windows Defender"/>
+    <property name="MpConfig_ProductAppDataPath" value="C:\ProgramData\Microsoft\Windows Defender"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\Guduru.Reddy\.jenkins\workspace\DEV_CHECKOUT_BUILD"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="APR_ICONV_PATH" value="C:\Program Files (x86)\Subversion\iconv"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_91/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="maven.home" value="C:\apache-maven-3.3.9"/>
+    <property name="JOB_BASE_NAME" value="DEV_CHECKOUT_BUILD"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="GIT_AUTHOR_NAME" value="Guduru.Reddy"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/NagireddyGuduru/DMP_REPO.git"/>
+  </properties>
+  <testcase name="someTest" classname="com.ankit.gubrani.blog.SimpleUnitTest" time="0.001"/>
+</testsuite>
